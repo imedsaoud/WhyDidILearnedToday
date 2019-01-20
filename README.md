@@ -55,5 +55,28 @@ Today I learned how to use [wdilt](https://github.com/blyndusk/wdilt)
 
 ----
 
+### 2019-01-20
+
+
+Today i learned some git command
+gst | ga/gaa | gc |  gp
+
+I learned that it's possible to have in the same BDB tables with MyISAM  and another in InnoDB for better performance 
+option + shift + entrée  ---> execute 'Sql'
+
+Aide memoire sql
+
+SELECT *
+FROM table
+WHERE condition
+GROUP BY expression
+HAVING condition
+{ UNION | INTERSECT | EXCEPT }
+ORDER BY expression
+LIMIT count
+OFFSET start
+
+----
+ 
 
 
