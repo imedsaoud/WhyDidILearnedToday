@@ -58,14 +58,14 @@ Today I learned how to use [wdilt](https://github.com/blyndusk/wdilt)
 ### 2019-01-20
 
 
-Today i learned some git command
+<!--git command-->
 gst | ga/gaa | gc |  gp
 
+<!--Mysql tips-->
 I learned that it's possible to have in the same BDB tables with MyISAM  and another in InnoDB for better performance 
 option + shift + entrée  ---> execute 'Sql'
 
-Aide memoire sql
-
+<!--Aide memoire sql--->
 SELECT *
 FROM table
 WHERE condition
@@ -77,6 +77,27 @@ LIMIT count
 OFFSET start
 
 ----
+
+### 2019-01-21
+<!--ssh-->
+Today I learned how to  connect ssh with shell : ssh root@example.com
+
+<!--Dump db--->
+mysqldump --all-databases > dump.sql
+mysqldump --databases db1 db2 db3 > dump.sql
+shell> mysqldump test > dump.sql
+
+<!--{start|stop|restart|reload|force-reload|status}...-->
+mysql.server 
+
+<!--Connection-->
+Mysql -u root -p / mysql -u root /
+Brew services start/restart ‘ex:mysql@5.7’ 
+
+<!---Version-->
+-V —v
  
+
+----
 
 
