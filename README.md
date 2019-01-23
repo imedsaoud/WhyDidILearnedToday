@@ -97,7 +97,37 @@ Brew services start/restart ‘ex:mysql@5.7’
 <!---Version-->
 -V —v
  
+----
+
+### 2019-01-22
+
+Today I learned some svg form and tips with my boy Calou
+
+I also learned one way to build a db with paper and pen and tried mine (ps: it was really bad)
+
+Switch fonction 😎 
+var answer = {a:0, e:0, i:0, o:0, u:0};
+for (var i = 0; i < x.length; i++) {
+  switch(x[i].toLowerCase()) {
+    case 'a': answer.a++; break;
+    case 'e': answer.e++; break;
+    case 'i': answer.i++; break;
+    case 'o': answer.o++; break;
+    case 'u': answer.u++; break;
+  }
+}
 
 ----
 
+### 2019-01-22
+
+Touch ‘ex: index.html’ = créer un fichier
+mkdir / md  = créer un dossier
+cd .. = revenir de 1 dans le chemin | cd ../ = revenir a la racine
+Rm  = supprimer
+
+echo "ce que je veux écrire" >> "à la suite de quel fichier »
+echo "Ce que je veux écrire" > "En ecrasant le contenu du fichier"
+
+[mysql -u sdz -p elevage] se connecter directement sur la base élevage
 
