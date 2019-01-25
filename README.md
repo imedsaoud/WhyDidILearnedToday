@@ -59,13 +59,13 @@ Today I learned how to use [wdilt](https://github.com/blyndusk/wdilt)
 
 
 <!--git command-->
-- some git command :
-- gst | ga/gaa | gc |  gp
+ some git command :
+ gst | ga/gaa | gc |  gp
 
 <!--phpmyadmin and Mysql tips-->
-- PhpMyadmin and mysql tips :
-- I learned that it's possible to have in the same BDB tables with MyISAM  and another in InnoDB for better  performance 
-- option + shift + entrée  ---> execute phpmyadmin
+ PhpMyadmin and mysql tips :
+ I learned that it's possible to have in the same BDB tables with MyISAM  and another in InnoDB for better  performance 
+ option + shift + entrée  ---> execute phpmyadmin
 
 <!--Aide memoire sql--->
 - SELECT *
@@ -82,32 +82,32 @@ Today I learned how to use [wdilt](https://github.com/blyndusk/wdilt)
 
 ### 2019-01-21
 <!--ssh-->
-- Today I learned how to  connect ssh with shell : ssh root@example.com
+ Today I learned how to  connect ssh with shell : ssh root@example.com
 
 <!--Dump db--->
-- To dump db : 
-- mysqldump --all-databases > dump.sql |
-- mysqldump --databases db1 db2 db3 > dump.sql |
-- shell> mysqldump test > dump.sql |
+To dump db : 
+ mysqldump --all-databases > dump.sql |
+ mysqldump --databases db1 db2 db3 > dump.sql |
+ shell> mysqldump test > dump.sql |
 
 <!--{start|stop|restart|reload|force-reload|status}...-->
 mysql.server  {start|stop|restart|reload|force-reload|status}
 
 <!--Connection-->
-- Mysql -u root -p / mysql -u root /
-- Brew services start/restart ‘ex:mysql@5.7’ 
+ Mysql -u root -p / mysql -u root /
+ Brew services start/restart ‘ex:mysql@5.7’ 
 
 <!---Version-->
-- -V for mysql 
+ -V for mysql 
 
  
 ----
 
 ### 2019-01-22
 
-- oday I learned some svg form and tips with my boy Calou
+ Today I learned some svg form and tips with my boy Calou
 
-- I also learned one way to build a db with paper and pen and tried mine 
+ I also learned one way to build a db with paper and pen and tried mine 
 
 Switch fonction 😎 
 var answer = {a:0, e:0, i:0, o:0, u:0};
@@ -125,13 +125,13 @@ for (var i = 0; i < x.length; i++) {
 
 ### 2019-01-23
 
-- Touch ‘ex: index.html’ = créer un fichier
-- mkdir / md  = créer un dossier
-- cd .. = revenir de 1 dans le chemin | cd ../ = revenir a la racine
-- Rm  = supprimer
+ Touch ‘ex: index.html’ = créer un fichier
+ mkdir / md  = créer un dossier
+ cd .. = revenir de 1 dans le chemin | cd ../ = revenir a la racine
+Rm  = supprimer
 
-- echo "ce que je veux écrire" >> "à la suite de quel fichier »
-- echo "Ce que je veux écrire" > "En ecrasant le contenu du fichier"
+ echo "ce que je veux écrire" >> "à la suite de quel fichier »
+ echo "Ce que je veux écrire" > "En ecrasant le contenu du fichier"
 
 [- mysql -u root -p elevage] se connecter directement sur la base élevage
 
@@ -140,13 +140,13 @@ for (var i = 0; i < x.length; i++) {
 ### 2019-01-24
 
 Today I finished my first db with mysql in terminal 
- - Php >>>>>>>>
- - var_dump() affiche le contenu d’une variable de manière brut , en précisant son type.
+  Php >>>>>>>>
+  var_dump() affiche le contenu d’une variable de manière brut , en précisant son type.
   * echo , , , ;  
-- The major differences to print are that echo accepts an argument list and doesn't have a return value.
-- print_r for array
-- $hi = printf('%y', ‘lol'); ===> echo $hi = 3
-- $hi = sprintf('%y%y', « aaa","bbb') ===> echo  $hi = aaabbb
+ The major differences to print are that echo accepts an argument list and doesn't have a return value.
+print_r for array
+$hi = printf('%y', ‘lol'); ===> echo $hi = 3
+$hi = sprintf('%y%y', « aaa","bbb') ===> echo  $hi = aaabbb
 
 
 
