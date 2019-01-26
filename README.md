@@ -142,11 +142,25 @@ Rm  = supprimer
 Today I finished my first db with mysql in terminal 
   Php >>>>>>>>
   var_dump() affiche le contenu d’une variable de manière brut , en précisant son type.
-  * echo , , , ;  
+   echo , , , ;  
  The major differences to print are that echo accepts an argument list and doesn't have a return value.
 print_r for array
 $hi = printf('%y', ‘lol'); ===> echo $hi = 3
 $hi = sprintf('%y%y', « aaa","bbb') ===> echo  $hi = aaabbb
+
+----
+
+### 2019-01-25
+
+déplacer des fichiers (mv) ,( mv) sert aussi à renommer un fichier
+
+copier des fichiers/dossiers (cp, rsync)
+effacer des fichiers (rm)
+
+Vimtutor sympa
+
+php -S localhost:’8000’
+
 
 
 
