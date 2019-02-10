@@ -59,13 +59,13 @@ Today I learned how to use [wdilt](https://github.com/blyndusk/wdilt)
 
 
 <!--git command-->
- some git command :
+ Some GIT command :
  gst | ga/gaa | gc |  gp
 
 <!--phpmyadmin and Mysql tips-->
  PhpMyadmin and mysql tips :
  I learned that it's possible to have in the same BDB tables with MyISAM  and another in InnoDB for better  performance 
- option + shift + entrée  ---> execute phpmyadmin
+ option + shift + entrée  ---> execute in phpmyadmin
 
 <!--Aide memoire sql--->
 - SELECT *
@@ -82,13 +82,21 @@ Today I learned how to use [wdilt](https://github.com/blyndusk/wdilt)
 
 ### 2019-01-21
 <!--ssh-->
- Today I learned how to  connect ssh with shell : ssh root@example.com
+Today I learned how to  connect SSH with shell : 
+
+ssh root@example.com
+ssh root@70.32.86.175
+ssh domainuser@example.com
 
 <!--Dump db--->
-To dump db : 
- mysqldump --all-databases > dump.sql |
- mysqldump --databases db1 db2 db3 > dump.sql |
- shell> mysqldump test > dump.sql |
+SQL of the day :
+
+Producing a set of SQL statements that can be executed to reproduce the original database :
+
+mysqldump -h [ ] -u [ ] -p [ ] > save.mysql
+mysqldump --all-databases > dump.sql
+mysqldump --databases db1 db2 db3 > dump.sql
+mysqldump test > dump.sql
 
 <!--{start|stop|restart|reload|force-reload|status}...-->
 mysql.server  {start|stop|restart|reload|force-reload|status}
@@ -96,7 +104,6 @@ mysql.server  {start|stop|restart|reload|force-reload|status}
 <!--Connection-->
  Mysql -u root -p / mysql -u root /
  Brew services start/restart ‘ex:mysql@5.7’ 
-
 <!---Version-->
  -V for mysql 
 
@@ -124,43 +131,144 @@ for (var i = 0; i < x.length; i++) {
 ----
 
 ### 2019-01-23
+ SHELL of the day :
 
- Touch ‘ex: index.html’ = créer un fichier
+ Touch = créer un fichier
  mkdir / md  = créer un dossier
  cd .. = revenir de 1 dans le chemin | cd ../ = revenir a la racine
-Rm  = supprimer
-
+ Rm  = supprimer
  echo "ce que je veux écrire" >> "à la suite de quel fichier »
  echo "Ce que je veux écrire" > "En ecrasant le contenu du fichier"
 
-[- mysql -u root -p elevage] se connecter directement sur la base élevage
+ Some SQL :
+
+ [- mysql -u root -p elevage] se connecter directement sur la base élevage
 
 ----
 
 ### 2019-01-24
 
 Today I finished my first db with mysql in terminal 
-  Php >>>>>>>>
+  Php Today :
   var_dump() affiche le contenu d’une variable de manière brut , en précisant son type.
    echo , , , ;  
  The major differences to print are that echo accepts an argument list and doesn't have a return value.
-print_r for array
-$hi = printf('%y', ‘lol'); ===> echo $hi = 3
-$hi = sprintf('%y%y', « aaa","bbb') ===> echo  $hi = aaabbb
+ print_r for array
+ $hi = printf('%y', ‘lol'); ===> echo $hi = 3
+ $hi = sprintf('%y%y', « aaa","bbb') ===> echo  $hi = aaabbb
 
 ----
 
 ### 2019-01-25
+Shell:
 
 déplacer des fichiers (mv) ,( mv) sert aussi à renommer un fichier
-
 copier des fichiers/dossiers (cp, rsync)
 effacer des fichiers (rm)
 
 Vimtutor sympa
 
-php -S localhost:’8000’
+php -S localhost:’8000’ // Serveur php
 
+----
 
+### 2019-01-26
 
+----
+
+### 2019-01-27
+
+----
+
+### 2019-01-28
+
+SHELL :
+cd .. (remonte d'un répertoire) cd ~ (identique à cd va dans le home de l'utilisateur) 
+cd - (retourne au répertoire précédent)
+cd ../ = revenir a la racine
+
+----
+
+### 2019-01-29
+
+SHELL :
+rm -rf /    détruit tout ce qu'il y a sur le ou les disques. 
+PHP:le '\n' c'est le LF (Line Feed) et '\r' le CR (carriage return).
+
+----
+
+### 2019-01-30
+
+----
+
+SHELL:
+?: remplace un caractère quelconque
+*: remplace une chaîne de caractère quelconque
+
+----
+
+### 2019-01-30
+
+Php:
+in_array ( mixed $needle , array $haystack [, bool $strict = FALSE ] ) : bool
+IP Version 4 publiques est arrivé officiellement à saturation le 3 février 2011.
+
+----
+
+### 2019-02-01
+
+----
+
+### 2019-02-02
+Shell :
+
+du -ks rep1 //espace disque occupé par l'arborescence du répertoire rep1 du -ks * //espace disque occupé par chaque sous-répertoire du répertoire courant 
+
+----
+
+### 2019-02-03
+
+Shell :
+
+ls avec l'option -i (ou - -inode) qui permet d'afficher le numéro d'inode dans le système de fichiers.
+ln -s cible nom_du_lien 
+Ln -s    //Create a symbolic link.
+
+----
+
+### 2019-02-04
+
+----
+
+### 2019-02-05
+
+Shell:
+which  //locate a program file in the user’s path
+find rep1 -name file1.txt //Rechercher récursivement le fichier file1.txt dans le sous répertoire rep1 et ses sous-répertoire. 
+Wihch Rechercher la commande  «  «  dans tous les répertoire de PATH. 
+
+----
+
+### 2019-02-06
+
+Shell:
+diff file1 file2 // Recherche ligne-à-ligne les différences entre les deux fichiers file1 et file2. 
+
+----
+
+### 2019-02-07
+
+----
+
+### 2019-02-08
+
+----
+
+### 2019-02-09
+
+----
+
+### 2019-02-10
+
+----
 
