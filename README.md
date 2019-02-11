@@ -222,7 +222,8 @@ IP Version 4 publiques est arrivé officiellement à saturation le 3 février�
 ### 2019-02-02
 Shell :
 
-du -ks rep1 //espace disque occupé par l'arborescence du répertoire rep1 du -ks * //espace disque occupé par chaque sous-répertoire du répertoire courant 
+du -ks rep1 //espace disque occupé par l'arborescence du répertoire rep1 
+du -ks * //espace disque occupé par chaque sous-répertoire du répertoire courant 
 
 ----
 
@@ -269,6 +270,54 @@ diff file1 file2 // Recherche ligne-à-ligne les différences entre les deux fic
 ----
 
 ### 2019-02-10
+SQL :
+
+COUNT()
+AVG()
+MIN()
+LENGTH()
+ROUND()
+SUM()
+MAX()
+MIN()
+LOCATE('b' , abc) -> 2
+REPLACE(‘Bonjour’, ‘o’, ‘0’); -> “B0nj0ur”
+SUBSTRING(‘abcdefghi’, -5, 3);	“efg”
+SELECT TRIM(’ abc ');	“abc”
+UPPER(), LOWER()
+COALESCE :Retourne la première valeur non-nulle d’une liste
+
+PHP :
+
+isset() Cette fonction teste si une variable existe ex: 
+
+<?php
+if (isset($_GET['prenom']) AND isset($_GET['nom'])) // On a le nom et le prénom
+{
+	echo 'Bonjour ' . $_GET['prenom'] . ' ' . $_GET['nom'] . ' !';
+}
+else // Il manque des paramètres, on avertit le visiteur
+{
+	echo 'Il faut renseigner un nom et un prénom !';
+}
+?>
+
+http_build_query — Génère une chaîne de requête en encodage URL :
+
+<?php
+$data = array(
+    'foo' => 'bar',
+    'baz' => 'boom',
+    'cow' => 'milk',
+    'php' => 'hypertext processor'
+);
+
+echo http_build_query($data) . "\n";  (foo=bar&baz=boom&cow=milk&php=hypertext+processor)
+echo http_build_query($data, '', '&amp;'); ( foo=bar&amp;baz=boom&amp;cow=milk&amp;php=hypertext+processor)
+
+?>
+
+strlen() Retourne la taille de la chaîne string.
 
 ----
 
