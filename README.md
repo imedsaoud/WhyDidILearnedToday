@@ -321,3 +321,18 @@ strlen() Retourne la taille de la chaîne string.
 
 ----
 
+### 2019-02-10
+
+CSS
+
+intrinsicsize : Cet attribut indique au navigateur d'ignorer la taille intrinsèque réelle de l'image et d'utiliser la taille fournie par les attributs
+
+Proposer des tailles d'images en fonction de l'ecran de l'utilisateurs
+<img src="img/chaton_small.jpg"
+  srcset="img/chaton_small.jpg 300w,
+             img/chaton_med.jpg 600w,
+             img/chaton_large.jpg 1000w">
+
+
+
+
